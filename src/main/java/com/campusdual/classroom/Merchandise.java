@@ -29,6 +29,7 @@ public abstract class Merchandise {
 
 	public String getLocation() {
 		StringBuilder builder = new StringBuilder();
+		builder.append("Location: ");
 		builder.append("Z - ");
 		builder.append(getZone());
 		builder.append(" A - ");
